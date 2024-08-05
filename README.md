@@ -1,5 +1,6 @@
 # rust
 
+<img src="https://www.svgrepo.com/show/376347/rust.svg"/>
 # Rust Developer 6-Month Learning Plan
 
 Welcome to the Rust Developer 6-Month Learning Plan! This repository provides a comprehensive, day-by-day plan to guide you from a complete beginner to a proficient Rust developer. The plan is structured to ensure a gradual and thorough understanding of Rust, covering the basics, advanced topics, real-world projects, and performance optimization.
