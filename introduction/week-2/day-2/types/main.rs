@@ -107,4 +107,35 @@ fn main() {
     let o = &l as *const i32;
 
     println!("The value of o is: {:?}", o);
+
+    //Type inference
+
+    let p = 5;
+
+    println!("The value of p is: {}", p);
+
+    let q = 5.0;
+
+    println!("The value of q is: {}", q);
+
+    let r = 5i32;
+
+    println!("The value of r is: {}", r);
+
+    //Function Parameters and Return Types
+
+    /**
+     *
+     * Rust requires explicit type annotations for
+     * function parameters and return types to
+     * ensure clarity and prevent ambiguity:
+     */
+
+    fn add(x: i32, y: i32) -> i32 {
+        x + y
+    }
+
+    let s = add(5, 5);
+
+    println!("The value of s is: {}", s);
 }
